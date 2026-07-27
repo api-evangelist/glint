@@ -1,0 +1,19 @@
+# Glint (Microsoft Viva Glint)
+
+> Glint is an employee-engagement and organizational-health platform built on people-science pulse surveys, manager dashboards, and action-planning analytics. Founded in 2013 and backed by Bessemer Venture Partners and Shasta Ventures, Glint was acquired by LinkedIn in 2018 and is now shipped by Microsoft as Microsoft Viva Glint within the Microsoft Viva employee-experience suite. There is no standalone public Glint developer API, OpenAPI, or developer portal; the product is administered through the Microsoft 365 tenant and Microsoft Entra ID.
+
+## Docs
+- [Introduction to Microsoft Viva Glint](https://learn.microsoft.com/en-us/viva/glint/): Product documentation on Microsoft Learn.
+- [Microsoft Viva Glint product page](https://www.microsoft.com/microsoft-viva/glint): Overview of the product.
+- [Set up a tenant](https://learn.microsoft.com/en-us/viva/glint/setup/viva-glint-tenant-provision): Provisioning the Viva Glint tenant.
+- [Access with Microsoft Entra ID](https://learn.microsoft.com/en-us/viva/glint/setup/access-with-azure-ad): Identity and access setup.
+
+## Blog
+- [Viva Glint blog](https://techcommunity.microsoft.com/category/viva-glint/blog/viva_glint_blog): Research and product updates on Microsoft Tech Community.
+
+## Support
+- [Get support for Viva Glint](https://learn.microsoft.com/en-us/viva/troubleshoot/glint/contact-support/get-support-viva-glint): Technical, product, and deployment support.
+
+## Notes
+- No first-party public REST API, OpenAPI specification, SDK, or CLI is published for Glint.
+- Programmatic access to Viva employee-experience data is provided through Microsoft 365 / Microsoft Graph, not a standalone Glint API.

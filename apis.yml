@@ -1,8 +1,24 @@
 aid: glint
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/glint.png
 name: Glint
-description: 'Glint is a company surfaced as a portfolio company of bessemer-venture-partners, shasta-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Glint is an employee-engagement and organizational-health platform built on people-science
+  pulse surveys, manager dashboards, and action-planning analytics. Founded in 2013 and backed by Bessemer
+  Venture Partners and Shasta Ventures, Glint was acquired by LinkedIn in 2018 and subsequently folded
+  into Microsoft, where it now ships as Microsoft Viva Glint within the Microsoft Viva employee-experience
+  suite. The original glintinc.com domain now redirects to Microsoft, and the product is administered
+  through the Microsoft 365 tenant and Microsoft Entra ID rather than a standalone public developer API;
+  Glint does not publish an independent OpenAPI, REST API reference, or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/glint/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +27,21 @@ x-backed-by:
 - shasta-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: microsoft
+x-now: Microsoft Viva Glint
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Unknown
+- Employee Engagement
+- Employee Experience
+- Organizational Health
+- People Analytics
+- Survey
+- HR Tech
+- Microsoft Viva
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +49,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/glint-domain-security.yml
+- type: LLMsTxt
+  url: llms/glint-llms.txt
 - type: Website
   url: https://www.glintinc.com/
+- type: ProductPage
+  url: https://www.microsoft.com/microsoft-viva/glint
+- type: Documentation
+  url: https://learn.microsoft.com/en-us/viva/glint/
+- type: Blog
+  url: https://techcommunity.microsoft.com/category/viva-glint/blog/viva_glint_blog
+- type: Support
+  url: https://learn.microsoft.com/en-us/viva/troubleshoot/glint/contact-support/get-support-viva-glint
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
