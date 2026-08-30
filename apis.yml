@@ -60,6 +60,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/linkedin/
+  name: LinkedIn
+  x-relationship: acquired
+  x-evidence: "Founded in 2013 and backed by Bessemer Venture Partners and Shasta Ventures, Glint was acquired by LinkedIn in 2018 and subsequently folded into Microsoft, where it now ships as Microsoft Viva Glint within the Microsoft Viva employee-experi"
 - type: DomainSecurity
   url: security/glint-domain-security.yml
 - type: LLMsTxt
