@@ -7,14 +7,17 @@ front_door_ai:
   probed_at: '2026-09-17'
   host: www.glintinc.com
   final_host: techcommunity.microsoft.com
-  ownership: inherited
+  ownership: own
   owner: glint
   shares_host_with: null
-  inherited_from: glintinc.com
+  inherited_from: null
+  alias_of: glintinc.com
   verdict: scored
-  score: null
+  score: 5
+  band: 4
+  band_label: moderate
   host_score: 5
-  density: null
+  density: 94.34
   words: 53
   tiers:
     agentic: 3
