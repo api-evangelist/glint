@@ -64,6 +64,47 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Glint is a company surfaced as a portfolio company of bessemer-venture-partners, shasta-ventures and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting the enrichment pipeline.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: bessemer-venture-partners, shasta-ventures — https://www.glintinc.com/
+Glint is an employee-engagement and organizational-health platform built on people-science pulse surveys, manager dashboards, and action-planning analytics. Founded in 2013 and backed by Bessemer Venture Partners and Shasta Ventures, Glint was acquired by LinkedIn in 2018 and subsequently folded into Microsoft, where it now ships as Microsoft Viva Glint within the Microsoft Viva employee-experience suite. The original glintinc.com domain now redirects to Microsoft, and the product is administered through the Microsoft 365 tenant and Microsoft Entra ID rather than a standalone public developer API; Glint does not publish an independent OpenAPI, REST API reference, or developer portal.
+
+**Areas:** Company · Employee Engagement · Employee Experience · Organizational Health · People Analytics · Surveys · Human Resources · Microsoft Viva
+
+## Glint on APIs.io (historical record)
+
+Everything profiled for Glint is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/glint/](https://apis.io/providers/glint/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Glint Domain Security](https://apis.io/security/glint/glint-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.glintinc.com/)
+- [Documentation](https://learn.microsoft.com/en-us/viva/glint/)
+- [Support](https://learn.microsoft.com/en-us/viva/troubleshoot/glint/contact-support/get-support-viva-glint)
+- [Blog](https://techcommunity.microsoft.com/category/viva-glint/blog/viva_glint_blog)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Glint: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/glint/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
